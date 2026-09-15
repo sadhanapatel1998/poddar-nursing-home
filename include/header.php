@@ -23,7 +23,7 @@
                                 </li>
                                 <li>
                                     <div class="icon">
-                                        <i class="icon-phone-call"></i>
+                                        <i class="fab fa-whatsapp"></i>
                                     </div>
                                     <div class="text">
                                         <p><a href="https://wa.me/919318413696" target="_blank">WhatsApp: +91 93184 13696</a></p>
