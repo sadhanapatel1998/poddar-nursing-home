@@ -4818,18 +4818,32 @@
 
 
 @media (max-width: 767px) {
+    .appointment-three {
+        margin: 40px 0px 0px;
+    }
+
+    .main-menu__logo a img {
+        width: 200px;
+    }
+
+    .testimonial-one__single {
+        margin-left: 0px;
+    }
+
     .main-menu__wrapper-inner {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding:12px 0 12px;
+        padding: 12px 0 12px;
     }
+
     .mobile-nav__content .logo-box img {
         width: 180px;
         background-color: #fff;
         border-radius: 7px;
         padding: 5px;
     }
+
     .main-menu__logo {
         position: relative;
         max-width: none;
