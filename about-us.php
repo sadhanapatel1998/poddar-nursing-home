@@ -149,7 +149,7 @@ include('include/data.php');
 
                         <div class="eye-care-center__inner">
                             <h3 class="eye-care-center__title">
-                                <a href="#">Our Mission</a>
+                                Our Mission
                             </h3>
 
                             <p class="eye-care-center__text">
@@ -169,7 +169,7 @@ include('include/data.php');
 
                         <div class="eye-care-center__inner">
                             <h3 class="eye-care-center__title">
-                                <a href="#">Our Vision</a>
+                                Our Vision
                             </h3>
 
                             <p class="eye-care-center__text">
@@ -189,7 +189,7 @@ include('include/data.php');
 
                         <div class="eye-care-center__inner">
                             <h3 class="eye-care-center__title">
-                                <a href="#">Our Values</a>
+                                Our Values
                             </h3>
 
                             <p class="eye-care-center__text">

@@ -59,9 +59,8 @@
                                     <span class="icon-pin"></span>
                                 </div>
                                 <p>
-                                    Patel Nagar, Ghaziabad,<br>
-                                    Uttar Pradesh, India
-                                </p>
+                                  <a href="https://maps.app.goo.gl/jTEHzxXpFrQZhbk76" target="_blank" rel="noopener noreferrer">  Poddar Nursing Home Pvt. Ltd. J-62 & 64, Patel Nagar-I, Ghaziabad – 201001, Uttar Pradesh, India</a>
+                                </p>    
                             </li>
 
                         </ul>

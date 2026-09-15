@@ -147,55 +147,7 @@ $testimonials = [
         "location" => "Patient",
         "image" => "assets/images/testimonial/t7.png",
         "review" => "Years of trusted healthcare, dedicated service, and a caring medical team have made this hospital a dependable choice for every family."
-    ],
-    [
-        "name" => "Sunny Verma",
-        "location" => "Patient",
-        "image" => "assets/images/testimonial/t1.png",
-        "review" => "One of the best hospitals in Ghaziabad with experienced doctors, affordable consultations, and a caring approach that makes every visit comfortable."
-    ],
-
-    [
-        "name" => "Tripti Arora",
-        "location" => "Patient",
-        "image" => "assets/images/testimonial/t2.png",
-        "review" => "The staff was professional, supportive, and compassionate throughout my treatment, making the entire hospital experience smooth, comfortable, and reassuring."
-    ],
-
-    [
-        "name" => "Ashish Kumar",
-        "location" => "Patient",
-        "image" => "assets/images/testimonial/t3.png",
-        "review" => "Excellent care during my wife's treatment with attentive doctors, polite staff, and a supportive approach that made every step reassuring."
-    ],
-
-    [
-        "name" => "Anil Kumar Yadav",
-        "location" => "Patient",
-        "image" => "assets/images/testimonial/t4.png",
-        "review" => "Dr. Rahul Poddar treats patients like family, offering clear guidance, compassionate care, and effective treatment that inspires confidence every visit."
-    ],
-
-    [
-        "name" => "Aryan Singh",
-        "location" => "Patient",
-        "image" => "assets/images/testimonial/t5.png",
-        "review" => "Dr. Neha's professionalism, warm attitude, and reassuring guidance gave us confidence and peace of mind throughout our entire treatment journey."
-    ],
-    [
-        "name" => "Ashvani Yadav",
-        "location" => "Patient",
-        "image" => "assets/images/testimonial/t6.png",
-        "review" => "Dr. Rahul Poddar is an outstanding laparoscopic surgeon, and the courteous staff made the treatment experience smooth, comfortable, and highly satisfying."
-    ],
-
-    [
-        "name" => "Arvind Tiwari",
-        "location" => "Patient",
-        "image" => "assets/images/testimonial/t7.png",
-        "review" => "Years of trusted healthcare, dedicated service, and a caring medical team have made this hospital a dependable choice for every family."
     ]
-
 ];
 
 

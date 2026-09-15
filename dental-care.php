@@ -26,7 +26,7 @@ ob_start();
     <div class="container">
         <div class="row">
             <div class="col-xl-4 col-lg-5 order-md-1 order-2 mt-4 mt-md-0">
-                <?= include('include/service-sidebar.php'); ?>
+                <?php include('include/service-sidebar.php'); ?>
             </div>
             <div class="col-xl-8 col-lg-7 order-md-2 order-1">
                 <div class="service-details__left">

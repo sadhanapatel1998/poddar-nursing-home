@@ -5,18 +5,21 @@
            <!--Main Slider Start-->
            <div class="hero-banner__carousel owl-carousel owl-theme">
                <div class="hero-slide">
-                   <img src="assets/images/banner/banner-1.jpg" alt="Banner-1">
+                   <img src="assets/images/banner/banner-1.jpg" alt="Banner-1" class="desktop-banner">
+                   <img src="assets/images/banner/mobile-banner-1.jpg" alt="Banner-1" class="mobile-banner">
                </div>
                <div class="hero-slide">
-                   <img src="assets/images/banner/banner-2.jpg" alt="Banner-1">
+                   <img src="assets/images/banner/banner-2.jpg" alt="Banner-1" class="desktop-banner">
+                   <img src="assets/images/banner/mobile-banner-2.jpg" alt="Banner-1" class="mobile-banner">
                </div>
                <div class="hero-slide">
-                   <img src="assets/images/banner/banner-1.jpg" alt="Banner-1">
+                   <img src="assets/images/banner/banner-1.jpg" alt="Banner-1" class="desktop-banner">
+                   <img src="assets/images/banner/mobile-banner-1.jpg" alt="Banner-1" class="mobile-banner">
                </div>
            </div>
            <!--Main Slider End-->
 
-           <!-- CTA One Start -->
+           <!-- Features  Start -->
            <section class="cta-one">
                <div class="container">
                    <div class="cta-one__inner">
@@ -28,7 +31,7 @@
                                        <span class="icon-medical-team"></span>
                                    </div>
                                    <div class="cta-one__content">
-                                       <h3 class="cta-one__title">Experienced Specialists</h3>
+                                       <h3 class="cta-one__title">Expert Medical Team</h3>
                                        <p class="cta-one__text">
                                            Expert doctors delivering personalized care across multiple specialties every day.
                                        </p>
@@ -70,7 +73,7 @@
                    </div>
                </div>
            </section>
-           <!-- CTA One End -->
+           <!-- Features  End -->
 
            <!--About Three Start -->
            <section class="about-three">
@@ -156,7 +159,7 @@
 
                                <div class="about-one__btn-and-call-box">
                                    <div class="about-one__btn">
-                                       <a href="about-v-1.html" class="thm-btn">
+                                       <a href="about-us.php" class="thm-btn">
                                            <span class="fas fa-arrow-right"></span>
                                            More About Us
                                        </a>
@@ -249,29 +252,25 @@
            </section>
            <!-- End Service -->
 
-           <!--Benefits One start-->
+           <!--Facilities  start-->
            <section class="benefits-one">
                <div class="container">
-
                    <div class="section-title text-left sec-title-animation animation-style2">
                        <div class="section-title__tagline-box">
                            <span class="icon-pharmacy"></span>
                            <p class="section-title__tagline">Complete Health Care</p>
                        </div>
-
                        <h2 class="section-title__title title-animation">
                            Advanced Medical Facilities <br>
                            <span>Under One Roof</span>
                        </h2>
                    </div>
-
                    <div class="benefits-one__inner">
                        <div class="benefits-one__main-tab-box tabs-box">
 
                            <!-- Tab Buttons -->
                            <div class="benefits-one__tab-buttons-box">
                                <ul class="tab-buttons list-unstyled">
-
                                    <?php foreach ($facilities as $index => $facility): ?>
                                        <li data-tab="#<?php echo $facility['id']; ?>"
                                            class="tab-btn <?php echo $index == 0 ? 'active-btn' : ''; ?>">
@@ -283,7 +282,6 @@
 
                                        </li>
                                    <?php endforeach; ?>
-
                                </ul>
                            </div>
 
@@ -293,7 +291,6 @@
                                <?php foreach ($facilities as $index => $facility): ?>
                                    <div class="tab <?php echo $index == 0 ? 'active-tab' : ''; ?>"
                                        id="<?php echo $facility['id']; ?>">
-
                                        <div class="benefits-one__content-box">
                                            <div class="row">
 
@@ -307,22 +304,16 @@
                                                        </div>
                                                    </div>
                                                </div>
-
                                                <div class="col-xl-6 col-lg-6">
                                                    <div class="benefits-one__content-right">
-
                                                        <h4 class="benefits-one__content-right-title">
                                                            <?php echo $facility['heading']; ?>
                                                        </h4>
-
                                                        <div class="benefits-one__content-right-outer">
-
                                                            <p class="benefits-one__content-right-text">
                                                                <?php echo $facility['desc']; ?>
                                                            </p>
-
                                                            <div class="benefits-one__points-box">
-
                                                                <ul class="benefits-one__points">
                                                                    <?php foreach ($leftPoints as $point): ?>
                                                                        <li>
@@ -335,7 +326,6 @@
                                                                        </li>
                                                                    <?php endforeach; ?>
                                                                </ul>
-
                                                                <ul class="benefits-one__points benefits-one__points--two">
                                                                    <?php foreach ($rightPoints as $point): ?>
                                                                        <li>
@@ -348,16 +338,13 @@
                                                                        </li>
                                                                    <?php endforeach; ?>
                                                                </ul>
-
                                                            </div>
-
                                                            <div class="benefits-one__btn">
                                                                <a href="services.php" class="thm-btn">
                                                                    <span class="fas fa-arrow-right"></span>
                                                                    Explore Services
                                                                </a>
                                                            </div>
-
                                                        </div>
                                                    </div>
                                                </div>
@@ -366,15 +353,14 @@
                                        </div>
                                    </div>
                                <?php endforeach; ?>
-
                            </div>
                        </div>
                    </div>
                </div>
            </section>
-           <!--Benefits One End-->
+           <!--Facilities End-->
 
-           <!-- Process Two Start -->
+           <!-- Process Start -->
            <section class="process-two">
                <div class="container">
                    <div class="section-title text-center sec-title-animation animation-style1">
@@ -467,9 +453,9 @@
 
                </div>
            </section>
-           <!-- Process Two End -->
+           <!-- Process End -->
 
-           <!-- Why Choose One Start -->
+           <!-- Why Choose Start -->
            <section class="why-choose-one">
                <div class="why-choose-one__bg"
                    style="background-image: url(assets/images/shapes/footer-one-shape-bg.png);">
@@ -575,7 +561,7 @@
                    </div>
                </div>
            </section>
-           <!-- Why Choose One End -->
+           <!-- Why Choose End -->
 
            <!--Team Start-->
            <section class="team-page">
@@ -796,7 +782,7 @@
 
                                    <div class="eye-care-center__inner">
                                        <h3 class="eye-care-center__title">
-                                           <a href="#">Poddar Nursing Home</a>
+                                           Poddar Nursing Home
                                        </h3>
 
                                        <p class="eye-care-center__text">
@@ -815,7 +801,7 @@
 
                                    <div class="eye-care-center__inner">
                                        <h3 class="eye-care-center__title">
-                                           <a href="#">Poddar Clinics</a>
+                                           Poddar Clinics
                                        </h3>
 
                                        <p class="eye-care-center__text">
@@ -834,7 +820,7 @@
 
                                    <div class="eye-care-center__inner">
                                        <h3 class="eye-care-center__title">
-                                           <a href="#">Visiting Consultation</a>
+                                           Visiting Consultation
                                        </h3>
 
                                        <p class="eye-care-center__text">
@@ -1058,17 +1044,18 @@
                            <!-- Right Form -->
                            <div class="col-xl-6 col-lg-7">
                                <div class="appointment-three__form">
-                                   <form id="appointment-three__form"
+                                   <form id="contact-form"
                                        class="contact-form-validated"
-                                       action="assets/inc/sendemail.php"
-                                       method="POST"
-                                       novalidate>
+                                       action="assets/inc/sendemail.php">
+
                                        <div class="row">
+
                                            <div class="col-xl-6 col-lg-6 col-md-6">
                                                <div class="appointment-three__input">
                                                    <input type="text" name="name" placeholder="Full Name" required>
                                                </div>
                                            </div>
+
                                            <div class="col-xl-6 col-lg-6 col-md-6">
                                                <div class="appointment-three__input">
                                                    <input type="text" name="phone" placeholder="Mobile Number" required>
@@ -1080,25 +1067,28 @@
                                                    <input type="email" name="email" placeholder="Email Address" required>
                                                </div>
                                            </div>
+
                                            <div class="col-xl-6 col-lg-6 col-md-6">
                                                <div class="appointment-three__input">
-                                                   <input type="text" name="department" placeholder="Department">
+                                                   <input type="text" name="subject" placeholder="Subject">
                                                </div>
                                            </div>
 
                                            <div class="col-xl-12">
                                                <div class="appointment-three__input">
-                                                   <input type="text" name="message"
-                                                       placeholder="Describe Your Health Concern">
+                                                   <input type="text" name="message" placeholder="Describe Your Health Concern">
                                                </div>
                                            </div>
+
                                        </div>
+
                                        <div class="appointment-three__btn">
                                            <button type="submit" class="thm-btn">
                                                <span class="fas fa-arrow-right"></span>
                                                Book Appointment
                                            </button>
                                        </div>
+
                                    </form>
                                </div>
                            </div>

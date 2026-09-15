@@ -1,4 +1,69 @@
+@media only screen and (min-width: 1200px) and (max-width: 1420px) {
+    .about-three {
+        padding: 60px 0 50px;
+    }
 
+    .main-service-one {
+        padding: 60px 0 60px;
+    }
+
+    .benefits-one {
+        padding: 60px 0 60px;
+    }
+
+    .process-two {
+        padding: 60px 0 60px;
+    }
+
+    .why-choose-one {
+        padding: 60px 0 60px;
+    }
+
+    .team-page {
+        padding: 60px 0px 35px;
+    }
+
+    .faq-one--instyle2 {
+        padding: 65px 0px 60px;
+    }
+
+    .eye-care-center {
+        padding: 60px 0 30px;
+    }
+
+    .counter-one__inner {
+        padding: 50px 40px 50px;
+    }
+
+    .testimonial-one {
+        padding: 60px 0 0px;
+    }
+
+    .appointment-three {
+        padding: 70px 0px 70px;
+        margin: 60px 0px 0px;
+    }
+
+    .section-title__title {
+        margin: 16px 0 0;
+    }
+
+    .blog-one {
+        padding: 60px 0 30px;
+    }
+
+    .about-three {
+        padding: 65px 0 52px;
+    }
+
+    .pb-80 {
+        padding-bottom: 60px;
+    }
+
+    .main-contact-form {
+        padding: 0px 0px 70px;
+    }
+}
 
 @media only screen and (min-width: 1200px) and (max-width: 1343px) {
     .services-one__single-inner {
@@ -71,9 +136,10 @@
     }
 
     .eye-care-center__title {
-        font-size: 22px;
-        line-height: 28px;
+        font-size: 19px;
+        line-height: 10px;
     }
+
 
 
 
@@ -173,15 +239,19 @@
 
 
     .cta-one__single {
-        gap: 30px;
-        padding: 38px 25px 38px;
+        gap: 15px;
+        padding: 32px 16px 20px;
     }
 
     .cta-one__title {
-        font-size: 22px;
-        line-height: 28px;
+        font-size: 18px;
+        line-height: 8px;
     }
 
+    .cta-one__icon {
+        height: 75px;
+        width: 75px;
+    }
 
 
     .about-three__experience-box {
@@ -192,6 +262,17 @@
         left: -30px;
     }
 
+    .counter-one__list {
+        flex-wrap: nowrap;
+    }
+
+    .team-two__designation {
+        min-height: 70px;
+    }
+
+    .faq-one__right--instyle2-call {
+        right: 646px;
+    }
 
 
 
@@ -423,18 +504,20 @@
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1300px) {
-.benefits-one__points li .icon {
-    height: 18px;
-    width: 18px;
-    border: 1px solid var(--mediplace-base);
-    font-size: 9px;
-}
-.benefits-one__points li {
-    gap: 6px;
-}
-.benefits-one__points li .text p {
-    font-size: 15px;
-}
+    .benefits-one__points li .icon {
+        height: 18px;
+        width: 18px;
+        border: 1px solid var(--mediplace-base);
+        font-size: 9px;
+    }
+
+    .benefits-one__points li {
+        gap: 6px;
+    }
+
+    .benefits-one__points li .text p {
+        font-size: 15px;
+    }
 }
 
 
@@ -1941,7 +2024,7 @@
 @media only screen and (max-width: 767px) {
 
     .section-title {
-        margin-bottom: 35px;
+        margin-bottom: 25px !important;
     }
 
     .section-title__title {
@@ -1951,6 +2034,23 @@
 
     .section-title__title br {
         display: none;
+    }
+
+    .about-three__points li {
+        position: relative;
+        display: -webkit-inline-box;
+        align-items: center;
+    }
+
+    .about-three__points li .text p {
+        margin-right: 10px;
+    }
+
+    .about-three__points li .icon {
+        margin-top: 5px;
+        height: 20px;
+        width: 20px;
+        font-size: 10px;
     }
 
     .services-one__single-inner {
@@ -2039,7 +2139,7 @@
     }
 
     .why-choose-one {
-        padding: 80px 0px 66px;
+        padding: 50px 0px 45px;
     }
 
     .team-one__content {
@@ -2127,7 +2227,7 @@
     }
 
     .testimonial-one {
-        padding: 80px 0 80px;
+        padding: 50px 0 0px;
     }
 
 
@@ -2174,7 +2274,7 @@
 
 
     .blog-one {
-        padding: 0 0 45px;
+        padding: 50px 0 35px;
     }
 
     .blog-one__img {
@@ -2195,12 +2295,14 @@
         line-height: 28px;
     }
 
-
+    .pb-80 {
+        padding-bottom: 50px;
+    }
 
 
 
     .site-footer__top-inner {
-        padding: 80px 0 80px;
+        padding: 60px 0 40px;
     }
 
     .footer-widget__about {
@@ -2285,7 +2387,7 @@
 
 
     .eye-care-center {
-        padding: 0 0 50px;
+        padding: 50px 0 0px;
     }
 
     .eye-care-center__top {
@@ -2331,7 +2433,7 @@
 
     .counter-one {
         margin-top: 0px;
-        padding: 50px 0px 50px;
+        padding: 25px 0px 0px;
     }
 
     .counter-one__shape-1 {
@@ -2354,7 +2456,7 @@
 
 
     .faq-one {
-        padding: 80px 0 80px;
+        padding: 50px 0 50px;
         margin-top: 0px;
     }
 
@@ -2527,27 +2629,32 @@
         border-right: none;
     }
 
-    .cta-one__single {
+
+
+    /* .cta-one__single {
         display: block;
+    } */
+
+
+
+
+    .cta-one__single {
+        gap: 10px;
+        padding: 30px 15px 30px;
     }
+
 
     .cta-one__icon {
         margin-bottom: 24px;
     }
 
     .cta-one__title {
-        font-size: 22px;
-        line-height: 28px;
+        font-size: 18px;
+        line-height: 7px;
     }
 
-
-
-
-
-
-
     .about-three {
-        padding: 80px 0 80px;
+        padding: 50px 0 50px;
     }
 
     .about-three__left {
@@ -2615,7 +2722,7 @@
 
 
     .process-two {
-        padding: 80px 0px 80px;
+        padding: 50px 0px 50px;
     }
 
     .process-two__single {
@@ -2710,12 +2817,42 @@
 
 
     .benefits-one {
-        padding: 80px 0 80px;
+        padding: 50px 0 50px;
     }
 
-    .benefits-one__main-tab-box .tab-buttons {
+    /* .benefits-one__main-tab-box .tab-buttons {
         justify-content: center;
         margin: 0px 0px 0px;
+    } */
+
+    .benefits-one__tab-buttons-box .tab-buttons {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        overflow-y: hidden;
+        justify-content: flex-start;
+        gap: 0px;
+        padding-bottom: 5px;
+        scroll-behavior: smooth;
+        -webkit-overflow-scrolling: touch;
+
+        /* Hide Scrollbar */
+        scrollbar-width: none;
+        /* Firefox */
+        -ms-overflow-style: none;
+        /* IE */
+    }
+
+    .benefits-one__tab-buttons-box .tab-buttons::-webkit-scrollbar {
+        display: none;
+        /* Chrome, Safari */
+    }
+
+    .benefits-one__tab-buttons-box .tab-buttons .tab-btn {
+        flex: 0 0 auto;
+        min-width: 140px;
+        margin-top: 20px;
+        /* Card width */
     }
 
     .benefits-one__main-tab-box .tab-buttons .tab-btn {
@@ -2782,12 +2919,16 @@
     }
 
     .benefits-one__points li .text p {
-        font-size: 14px;
+        font-size: 16px;
         line-height: 20px;
     }
 
     .benefits-one__points-box {
         gap: 19px;
+    }
+
+    .process-two__text {
+        padding: 0px 50px;
     }
 
 
@@ -3036,7 +3177,7 @@
     }
 
     .appointment-three {
-        padding: 0px 0px 80px;
+        padding: 50px 0px 50px;
     }
 
     .why-choose-one__points li {
@@ -3115,7 +3256,7 @@
     }
 
     .main-service-one {
-        padding: 0px 0px 80px;
+        padding: 50px 0px 50px;
     }
 
     .slogan-one__content-title h2 {
@@ -3240,12 +3381,16 @@
 
     .page-header__inner h3 {
         font-size: 30px;
-        line-height: 40px;
-        margin-bottom: 10px;
+        line-height: 25px;
+        margin-bottom: 5px;
+    }
+
+    .service-details__text-1 {
+        font-size: 16px;
     }
 
     .page-header__inner {
-        padding: 91px 0 93px;
+        padding: 65px 0 55px;
     }
 
     .footer-widget__gallery {
@@ -3364,8 +3509,8 @@
 
     .quick-contact-one__location {
         margin-left: 0;
-        margin-top: 50px;
-        padding: 32px 20px 30px;
+        margin-top: 0px;
+        padding: 32px 0px 30px;
     }
 
     .quick-contact-one__location-btn {
@@ -3373,15 +3518,25 @@
     }
 
     .quick-contact-one {
-        padding: 80px 0px 80px;
+        padding: 20px 0px 33px;
     }
 
     .main-contact-form__inner {
         padding: 30px 20px 30px;
+        margin-top: 30px;
     }
 
     .main-contact-form {
-        padding: 0px 0px 80px;
+        padding: 0px 0px 50px;
+    }
+
+    .google-map__one-box {
+        height: 400px;
+    }
+
+    .quick-contact-one__location-single {
+        padding: 40px 35px 32px;
+        margin-bottom: 20px;
     }
 
     .main-contact-form--onepage {
@@ -3393,11 +3548,11 @@
     }
 
     .google-map-one {
-        padding: 0px 0px 80px;
+        padding: 0px 0px 50px;
     }
 
     .team-page {
-        padding: 80px 0px 50px;
+        padding: 50px 0px 30px;
     }
 
     .team-page__filter {
@@ -3510,7 +3665,7 @@
     }
 
     .service-details {
-        padding: 80px 0 80px;
+        padding: 50px 0 50px;
     }
 
     .service-page-one {
@@ -3903,7 +4058,7 @@
 
     .about-three__right {
         margin-right: 0px;
-                margin-left: 30px;
+        margin-left: 30px;
     }
 
     .about-three__points-box {
@@ -4388,10 +4543,10 @@
 --------------------------------------------------------------*/
 
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
-.section-title__title {
-    color: var(--mediplace-black);
-    font-size: 36px;
-}
+    .section-title__title {
+        color: var(--mediplace-black);
+        font-size: 36px;
+    }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1343px) {
@@ -4400,9 +4555,10 @@
     }
 
     .main-menu__logo a img {
-    width: 250px;
-    margin-left: -70px;
-}
+        width: 250px;
+        margin-left: -70px;
+    }
+
     .main-menu__wrapper-inner {
         padding-left: 180px;
     }
@@ -4483,7 +4639,7 @@
 @media only screen and (min-width: 1200px) and (max-width: 1268px) {
     .main-menu__logo a img {
         width: 220px;
-                margin-left: -45px;
+        margin-left: -45px;
     }
 }
 
@@ -4666,9 +4822,14 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 24px 0 24px;
+        padding:12px 0 12px;
     }
-
+    .mobile-nav__content .logo-box img {
+        width: 180px;
+        background-color: #fff;
+        border-radius: 7px;
+        padding: 5px;
+    }
     .main-menu__logo {
         position: relative;
         max-width: none;

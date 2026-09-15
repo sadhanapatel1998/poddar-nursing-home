@@ -53,6 +53,7 @@ ob_start();
                                     <div class="quick-contact-one__location-text">
                                         <p>Email Us</p>
                                         <h3><a href="mailto:poddarhospital@gmail.com">poddarhospital@gmail.com</a></h3>
+                                        <h3><a href="mailto:poddarnursinghome@gmail.com">poddarnursinghome@gmail.com</a></h3>
                                     </div>
                                 </div>
                             </div>
@@ -65,7 +66,7 @@ ob_start();
                                     </div>
                                     <div class="quick-contact-one__location-text">
                                         <p>Our Location</p>
-                                        <h6>Poddar Nursing Home Pvt. Ltd. J-62 & 64, Patel Nagar-I, Ghaziabad – 201001, Uttar Pradesh, India</h6>
+                                        <h6><a href="https://maps.app.goo.gl/bWstP5k7cHaLLu3D7" target="_blank" rel="noopener noreferrer">Poddar Nursing Home Pvt. Ltd. J-62 & 64, Patel Nagar-I, Ghaziabad – 201001, Uttar Pradesh, India</a></h6>
                                     </div>
                                 </div>
                             </div>
@@ -140,40 +141,46 @@ ob_start();
             </div>
             <div class="col-md-8">
                 <div class="main-contact-form__inner">
-                    <form id="contact-form" class="contact-form-validated contact-page__form" action="assets/inc/sendemail.php" method="POST">
+                    <form id="contact-form" class="contact-form-validated contact-page__form">
                         <div class="row">
                             <div class="col-xl-6 col-lg-6 col-md-6">
                                 <div class="contact-page__input">
-                                    <input type="text" name="name" placeholder="Your name" required="">
+                                    <input type="text" name="name" placeholder="Your Name" required>
                                 </div>
                             </div>
+
                             <div class="col-xl-6 col-lg-6 col-md-6">
                                 <div class="contact-page__input">
-                                    <input type="email" name="email" placeholder="Your Email" required="">
+                                    <input type="email" name="email" placeholder="Your Email" required>
                                 </div>
                             </div>
+
                             <div class="col-xl-6 col-lg-6 col-md-6">
                                 <div class="contact-page__input">
-                                    <input type="text" placeholder="Mobile" name="phone" required="">
+                                    <input type="text" name="phone" placeholder="Mobile" required>
                                 </div>
                             </div>
+
                             <div class="col-xl-6 col-lg-6 col-md-6">
                                 <div class="contact-page__input">
-                                    <input type="text" placeholder="Subject" name="subject" required="">
+                                    <input type="text" name="subject" placeholder="Subject" required>
                                 </div>
                             </div>
+
                             <div class="col-xl-12">
                                 <div class="contact-page__input">
-                                    <textarea name="message" placeholder="Messege" required=""></textarea>
+                                    <textarea name="message" placeholder="Message" required></textarea>
                                 </div>
                             </div>
+
                             <div class="contact-page__btn">
-                                <button type="submit" class="thm-btn" data-loading-text="Please wait...">
+                                <button type="submit" class="thm-btn">
                                     <span class="fas fa-arrow-right"></span>
                                     Send A Message
                                 </button>
                             </div>
                         </div>
+
                         <div class="result"></div>
                     </form>
                 </div>
@@ -188,7 +195,7 @@ ob_start();
 <section class="google-map-one">
     <div class="container">
         <div class="google-map-one__inner">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.6358445136475!2d77.43130990000002!3d28.670620399999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf1b694efa015%3A0x88efd4c94b1f3d9a!2sPoddar%20Nursing%20Home%20Ghaziabad!5e0!3m2!1sen!2sin!4v1789377960736!5m2!1sen!2sin" class="google-map__one-box"  allowfullscreen=""></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.6358445136475!2d77.43130990000002!3d28.670620399999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf1b694efa015%3A0x88efd4c94b1f3d9a!2sPoddar%20Nursing%20Home%20Ghaziabad!5e0!3m2!1sen!2sin!4v1789377960736!5m2!1sen!2sin" class="google-map__one-box" allowfullscreen=""></iframe>
         </div>
     </div>
 </section>
