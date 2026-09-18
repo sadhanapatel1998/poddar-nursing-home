@@ -2014,14 +2014,11 @@
 
 
 
-
-
-
-
-
-
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
+    .cta-one__text {
+        margin-top: 6px;
+    }
 
     .section-title {
         margin-bottom: 25px !important;
@@ -2650,7 +2647,7 @@
 
     .cta-one__title {
         font-size: 18px;
-        line-height: 7px;
+        line-height: 24px;
     }
 
     .about-three {
@@ -5004,6 +5001,8 @@
     .main-menu-three__contact-list {
         gap: 25px;
     }
+
+
 
 
 }
