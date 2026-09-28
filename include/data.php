@@ -92,7 +92,7 @@ $doctors = [
     [
         "name" => "Dr. Rajeev Goel",
         "designation" => "Consultant Pathologist",
-        "image" => "assets/images/team/no-img-avl.jpg",
+        "image" => "assets/images/team/dr-rajeev-goel.jpg",
         "link" => "dr-rajeev-goel.php"
     ]
 ];

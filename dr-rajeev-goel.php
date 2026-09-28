@@ -31,7 +31,7 @@ ob_start();
                 <div class="col-xl-4 col-lg-5">
                     <div class="team-details__top-left">
                         <div class="team-details__img-1">
-                            <img src="assets/images/team/no-img-avl.jpg"
+                            <img src="assets/images/team/dr-rajeev-goel.jpg"
                                 alt="Dr. Rajeev Goel - ENT Specialist in Ghaziabad">
                         </div>
                     </div>
