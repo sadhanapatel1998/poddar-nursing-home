@@ -108,8 +108,9 @@
                         <a href="mailto:npoddarhospital@gmail.com">poddarhospital@gmail.com</a>
                     </li>
                     <li>
-                        <!-- <i class="fa fa-location"></i> -->
-                        <a href="https://maps.app.goo.gl/jTEHzxXpFrQZhbk76" target="_blank">Poddar Nursing Home Pvt. Ltd. J-62 & 64, Patel Nagar-I, Ghaziabad – 201001, Uttar Pradesh, India</a>
+                        <i class="fa fa-location"></i>
+                        <a href="https://maps.app.goo.gl/bWstP5k7cHaLLu3D7" target="_blank" rel="noopener noreferrer">
+                                                        J 62, 64 patel Nagar 1 old bus stand Ghaziabad</a>
                     </li>
                 </ul>
                 <!-- <div class="mobile-nav__top">

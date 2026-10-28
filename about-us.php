@@ -65,7 +65,7 @@ include('include/data.php');
                                     <span class="fas fa-check"></span>
                                 </div>
                                 <div class="text">
-                                    <p>40+ years of trusted healthcare excellence.</p>
+                                    <p>42+ years of trusted healthcare excellence.</p>
                                 </div>
                             </li>
 
