@@ -75,6 +75,124 @@
            </section>
            <!-- Features  End -->
 
+           <!-- FibroScan Health Camp Section Start -->
+
+           <section class="pnh-fibroscan-event-section">
+               <!-- Decorative Medical Cross Watermarks -->
+               <svg class="pnh-fibroscan-bg-cross pnh-fibroscan-bg-cross-1" viewBox="0 0 24 24" fill="#0072b2">
+                   <path d="M19 10.5h-5.5V5c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v5.5H5c-.83 0-1.5.67-1.5 1.5s.67 1.5 1.5 1.5h5.5V19c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5v-5.5H19c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5z" />
+               </svg>
+               <svg class="pnh-fibroscan-bg-cross pnh-fibroscan-bg-cross-2" viewBox="0 0 24 24" fill="#0072b2">
+                   <path d="M19 10.5h-5.5V5c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v5.5H5c-.83 0-1.5.67-1.5 1.5s.67 1.5 1.5 1.5h5.5V19c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5v-5.5H19c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5z" />
+               </svg>
+               <svg class="pnh-fibroscan-bg-cross pnh-fibroscan-bg-cross-3" viewBox="0 0 24 24" fill="#0072b2">
+                   <path d="M19 10.5h-5.5V5c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v5.5H5c-.83 0-1.5.67-1.5 1.5s.67 1.5 1.5 1.5h5.5V19c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5v-5.5H19c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5z" />
+               </svg>
+               <svg class="pnh-fibroscan-bg-cross pnh-fibroscan-bg-cross-4" viewBox="0 0 24 24" fill="#0072b2">
+                   <path d="M19 10.5h-5.5V5c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v5.5H5c-.83 0-1.5.67-1.5 1.5s.67 1.5 1.5 1.5h5.5V19c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5v-5.5H19c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5z" />
+               </svg>
+
+               <div class="container pnh-fibroscan-container">
+                   <div class="row align-items-center">
+                       <!-- Left Column: FibroScan Poster -->
+                       <div class="col-xl-5 col-lg-5 col-md-12">
+                           <div class="pnh-fibroscan-poster-card gallery-popup">
+                               <a href="assets/images/fibroscan/main.jpeg" class="pnh-fibroscan-poster-link" title="FibroScan Liver Health Camp Flyer">
+                                   <img src="assets/images/fibroscan/main.jpeg" alt="FibroScan Liver Health Camp Flyer" class="pnh-fibroscan-poster-img">
+                                   <div class="pnh-fibroscan-poster-overlay">
+                                       <span class="pnh-fibroscan-poster-badge">
+                                           <i class="fas fa-search-plus"></i> View Full Flyer
+                                       </span>
+                                   </div>
+                               </a>
+                           </div>
+                       </div>
+
+                       <!-- Right Column: Content & 2x2 Camp Highlights -->
+                       <div class="col-xl-7 col-lg-7 col-md-12">
+                           <div class="pnh-fibroscan-content-card">
+                               <!-- Top Tagline -->
+                               <div class="pnh-fibroscan-tag">
+                                   <span class="pnh-fibroscan-tag-line"></span>
+                                   <span class="pnh-fibroscan-tag-text">RECENT EVENT</span>
+                               </div>
+
+                               <!-- Main Heading -->
+                               <h2 class="pnh-fibroscan-heading">
+                                   <span class="pnh-fibroscan-title-navy">FibroScan</span>
+                                   <span class="pnh-fibroscan-title-red">Health Camp 2026</span>
+                               </h2>
+
+                               <!-- Subheading -->
+                               <h4 class="pnh-fibroscan-subheading">A Step Towards Better Liver Health</h4>
+
+                               <!-- Description Paragraph -->
+                               <p class="pnh-fibroscan-desc">
+                                   A special FibroScan health camp was organized at <strong>Poddar Nursing Home</strong>, Ghaziabad, providing patients with access to painless and non-invasive liver health screening for fat and <strong>fibrosis</strong>. The camp aimed to raise awareness about early detection and prevention of liver diseases, especially among people with diabetes, obesity and related risk factors.
+                               </p>
+
+                               <!-- Camp Highlights Tagline -->
+                               <div class="pnh-fibroscan-tag pnh-fibroscan-tag-highlights">
+                                   <span class="pnh-fibroscan-tag-line"></span>
+                                   <span class="pnh-fibroscan-tag-text">CAMP HIGHLIGHTS</span>
+                               </div>
+
+                               <!-- 2x2 Highlights Grid -->
+                               <div class="pnh-fibroscan-highlights-grid gallery-popup">
+                                   <div class="row g-2 mb-3">
+                                       <div class="col-sm-6 col-6">
+                                           <div class="pnh-fibroscan-thumb-box">
+                                               <a href="assets/images/fibroscan/f4.jpeg" class="pnh-fibroscan-thumb-link" title="Camp Highlight 4">
+                                                   <img src="assets/images/fibroscan/f4.jpeg" alt="FibroScan Camp Highlight 4" class="pnh-fibroscan-thumb-img">
+                                                   <div class="pnh-fibroscan-thumb-overlay"><i class="fas fa-search-plus"></i></div>
+                                               </a>
+                                           </div>
+                                       </div>
+                                       <div class="col-sm-6 col-6">
+                                           <div class="pnh-fibroscan-thumb-box">
+                                               <a href="assets/images/fibroscan/f5.jpeg" class="pnh-fibroscan-thumb-link" title="Camp Highlight 4">
+                                                   <img src="assets/images/fibroscan/f5.jpeg" alt="FibroScan Camp Highlight 4" class="pnh-fibroscan-thumb-img">
+                                                   <div class="pnh-fibroscan-thumb-overlay"><i class="fas fa-search-plus"></i></div>
+                                               </a>
+                                           </div>
+                                       </div>
+                                   </div>
+                                   <div class="row g-2 ">
+                                       <!-- Fallback if images not yet loaded in folder -->
+                                       <div class="col-sm-4 col-6">
+                                           <div class="pnh-fibroscan-thumb-box">
+                                               <a href="assets/images/fibroscan/f1.jpeg" class="pnh-fibroscan-thumb-link" title="Camp Highlight 1">
+                                                   <img src="assets/images/fibroscan/f1.jpeg" alt="FibroScan Camp Highlight 1" class="pnh-fibroscan-thumb-img">
+                                                   <div class="pnh-fibroscan-thumb-overlay"><i class="fas fa-search-plus"></i></div>
+                                               </a>
+                                           </div>
+                                       </div>
+                                       <div class="col-sm-4 col-6">
+                                           <div class="pnh-fibroscan-thumb-box">
+                                               <a href="assets/images/fibroscan/f2.jpeg" class="pnh-fibroscan-thumb-link" title="Camp Highlight 2">
+                                                   <img src="assets/images/fibroscan/f2.jpeg" alt="FibroScan Camp Highlight 2" class="pnh-fibroscan-thumb-img">
+                                                   <div class="pnh-fibroscan-thumb-overlay"><i class="fas fa-search-plus"></i></div>
+                                               </a>
+                                           </div>
+                                       </div>
+                                       <div class="col-sm-4 col-6">
+                                           <div class="pnh-fibroscan-thumb-box">
+                                               <a href="assets/images/fibroscan/f3.jpeg" class="pnh-fibroscan-thumb-link" title="Camp Highlight 3">
+                                                   <img src="assets/images/fibroscan/f3.jpeg" alt="FibroScan Camp Highlight 3" class="pnh-fibroscan-thumb-img">
+                                                   <div class="pnh-fibroscan-thumb-overlay"><i class="fas fa-search-plus"></i></div>
+                                               </a>
+                                           </div>
+                                       </div>
+                                   </div>
+                               </div>
+
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </section>
+           <!-- FibroScan Health Camp Section End -->
+
            <!--About Three Start -->
            <section class="about-three">
                <div class="container">
